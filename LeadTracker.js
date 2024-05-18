@@ -17,7 +17,7 @@ saveBtn.addEventListener("click",function(){
     localStorage.setItem("myLeads", JSON.stringify(myLeads))
     renderData()
 })
-deleteBtn.addEventListener("dblclick", function(){
+deleteBtn.addEventListener("click", function(){
     localStorage.clear()
     myLeads = []
     renderData()

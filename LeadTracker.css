@@ -1,3 +1,6 @@
+body{
+    min-width: 450px;
+}
 #text-ele{
     width: 100%;
     box-sizing: border-box;
@@ -8,9 +11,25 @@ button{
     margin-left: 10px;
     padding: 10px 20px;
     font-weight: bold;
-    background-color: #327256;
-    color: #b7e4c7;
-    border:1px solid #2d6a4f;
+    background-color: #e7ad6f;
+    color: white;
+    border:1px solid #e7ad6f;
     border-radius: 2px;
 
+}
+#delete-btn{
+    background-color:  white;
+    color: #e7ad6f;
+}
+#text-ele{
+    border: 1px solid #e7ad6f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aa6822;
 }
